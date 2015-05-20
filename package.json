@@ -1,0 +1,36 @@
+{
+  "name": "github-mover",
+  "version": "0.0.0",
+  "description": "Github Issue Mover",
+  "main": "./index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "grunt mocha",
+    "verify": "grunt"
+  },
+  "author": "Afsin Ustundag <afsin.ustundag@us.pwc.com>",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "dependencies": {
+    "curlrequest": "^0.5.2",
+    "node-curl": "^0.3.3",
+    "request": "^2.55.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/austundag/github-mover.git"
+  },
+  "keywords": [
+    "github",
+    "issues"
+  ],
+  "bugs": {
+    "url": "https://github.com/austundag/github-mover/issues"
+  },
+  "homepage": "https://github.com/austundag/github-mover"
+}
