@@ -1,35 +1,42 @@
 {
-  "name": "github-mover",
-  "version": "0.0.0",
-  "description": "Github Issue Mover",
-  "main": "./index.js",
-  "directories": {
-    "lib": "lib"
-  },
-  "scripts": {
-    "test": "grunt mocha",
-    "verify": "grunt"
-  },
-  "author": "Afsin Ustundag <afsin.ustundag@us.pwc.com>",
-  "license": "Apache-2.0",
-  "engines": {
-    "node": ">= 0.10.0"
-  },
-  "dependencies": {
-    "async": "^0.9.2",
-    "request": "^2.55.0"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/austundag/github-mover.git"
-  },
-  "keywords": [
-    "github",
-    "issues"
-  ],
-  "bugs": {
-    "url": "https://github.com/austundag/github-mover/issues"
-  },
-  "homepage": "https://github.com/austundag/github-mover"
+    "name": "github-mover",
+    "version": "0.0.0",
+    "description": "Github Issue Mover",
+    "main": "./index.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "scripts": {
+        "test": "grunt mocha",
+        "verify": "grunt"
+    },
+    "author": "Afsin Ustundag <afsin.ustundag@us.pwc.com>",
+    "license": "Apache-2.0",
+    "engines": {
+        "node": ">= 0.10.0"
+    },
+    "dependencies": {
+        "async": "^0.9.2",
+        "request": "^2.55.0"
+    },
+    "devDependencies": {
+        "grunt": "^0.4.5",
+        "grunt-contrib-jshint": "^0.11.2",
+        "grunt-jsbeautifier": "^0.2.10",
+        "grunt-mocha-test": "^0.12.7",
+        "grunt-shell": "^1.1.2",
+        "mocha": "^2.2.5"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/austundag/github-mover.git"
+    },
+    "keywords": [
+        "github",
+        "issues"
+    ],
+    "bugs": {
+        "url": "https://github.com/austundag/github-mover/issues"
+    },
+    "homepage": "https://github.com/austundag/github-mover"
 }
